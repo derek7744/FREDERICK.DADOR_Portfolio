@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frederick E. Dador | Educator, ICT Coordinator & Developer</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#2563eb',
+                            dark: '#0f172a',
+                            card: '#1e293b',
+                            accent: '#38bdf8'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-dark text-slate-100 font-sans antialiased selection:bg-brand-blue selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-brand-dark/90 backdrop-blur-md z-50 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-tight text-white">FREDERICK<span class="text-brand-accent">.DADOR</span></a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-brand-accent transition">About</a>
+                <a href="#qualifications" class="hover:text-brand-accent transition">Qualifications</a>
+                <a href="#skills" class="hover:text-brand-accent transition">Skills</a>
+                <a href="#experience" class="hover:text-brand-accent transition">Experience</a>
+                <a href="#contact" class="hover:text-brand-accent transition">Contact</a>
+            </div>
+            <a href="mailto:dador.frederick7728@gmail.com" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-brand-blue/10 text-brand-accent border border-brand-blue/30 text-xs font-semibold hover:bg-brand-blue/20 transition">
+                <i class="fa-solid fa-envelope"></i> Contact Me
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center pt-20 px-6">
+        <div class="max-w-4xl text-center space-y-6">
+            <span class="px-4 py-1.5 rounded-full text-xs font-semibold bg-brand-blue/20 text-brand-accent border border-brand-blue/30 inline-block">
+                School ICT Coordinator, SHS Educator & College Professor
+            </span>
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight">
+                Frederick E. Dador, <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-sky-300">MIT</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
+                Empowering education through technology, software engineering, and cybersecurity. Over 10 years of overall teaching experience with 7 years in the public school system and higher education instruction.
+            </p>
+            <div class="flex justify-center gap-4 pt-4">
+                <a href="mailto:dador.frederick7728@gmail.com" class="px-6 py-3 rounded-lg bg-brand-blue hover:bg-blue-600 text-white font-medium transition shadow-lg shadow-blue-500/20 flex items-center gap-2">
+                    <i class="fa-solid fa-paper-plane"></i> Send Email
+                </a>
+                <a href="#qualifications" class="px-6 py-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium border border-slate-700 transition">
+                    View Credentials
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 bg-slate-900/50">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                <i class="fa-solid fa-user text-brand-accent"></i> Professional Overview
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                    <div class="text-3xl font-bold text-brand-accent mb-2">10+ Years</div>
+                    <div class="text-sm font-semibold text-slate-300">Teaching Experience</div>
+                    <p class="text-xs text-slate-400 mt-2">Spanning higher education, college professorships, and public Senior High School instruction.</p>
+                </div>
+                <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                    <div class="text-3xl font-bold text-brand-accent mb-2">7 Years</div>
+                    <div class="text-sm font-semibold text-slate-300">Public School System</div>
+                    <p class="text-xs text-slate-400 mt-2">Serving as ICT Coordinator and SHS Faculty at Tinajeros National High School under DepEd.</p>
+                </div>
+                <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                    <div class="text-3xl font-bold text-brand-accent mb-2">MIT & BSIT</div>
+                    <div class="text-sm font-semibold text-slate-300">Advanced Academic Foundation</div>
+                    <p class="text-xs text-slate-400 mt-2">Combining IT leadership with active development and security practice.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications & Education -->
+    <section id="qualifications" class="py-20 px-6">
+        <div class="max-w-5xl mx-auto space-y-16">
+            <!-- Education -->
+            <div>
+                <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                    <i class="fa-solid fa-graduation-cap text-brand-accent"></i> Academic Degrees
+                </h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                        <div class="text-xs text-brand-accent font-semibold uppercase tracking-wider">Postgraduate</div>
+                        <h3 class="text-xl font-bold text-white mt-1">Master of Information Technology (MIT)</h3>
+                        <p class="text-sm text-slate-400 mt-2">Advanced studies in IT architecture, software systems, and technology management.</p>
+                    </div>
+                    <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                        <div class="text-xs text-brand-accent font-semibold uppercase tracking-wider">Undergraduate</div>
+                        <h3 class="text-xl font-bold text-white mt-1">Bachelor of Science in Information Technology (BSIT)</h3>
+                        <p class="text-sm text-slate-400 mt-2">Core foundations in software development, networking, and system administration.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div>
+                <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                    <i class="fa-solid fa-certificate text-brand-accent"></i> National Certifications & Training
+                </h2>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="bg-brand-card p-5 rounded-lg border border-slate-800 flex items-start gap-4">
+                        <i class="fa-solid fa-award text-2xl text-yellow-400 mt-1"></i>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">TESDA TM1</h4>
+                            <p class="text-xs text-slate-400">Trainers Methodology Level I</p>
+                        </div>
+                    </div>
+                    <div class="bg-brand-card p-5 rounded-lg border border-slate-800 flex items-start gap-4">
+                        <i class="fa-solid fa-desktop text-2xl text-blue-400 mt-1"></i>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">NC II Animation</h4>
+                            <p class="text-xs text-slate-400">National Certificate II</p>
+                        </div>
+                    </div>
+                    <div class="bg-brand-card p-5 rounded-lg border border-slate-800 flex items-start gap-4">
+                        <i class="fa-solid fa-palette text-2xl text-purple-400 mt-1"></i>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">NC III Visual Graphics Design</h4>
+                            <p class="text-xs text-slate-400">National Certificate III</p>
+                        </div>
+                    </div>
+                    <div class="bg-brand-card p-5 rounded-lg border border-slate-800 flex items-start gap-4">
+                        <i class="fa-solid fa-server text-2xl text-emerald-400 mt-1"></i>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">NC II Computer System & Servicing</h4>
+                            <p class="text-xs text-slate-400">National Certificate II</p>
+                        </div>
+                    </div>
+                    <div class="bg-brand-card p-5 rounded-lg border border-slate-800 flex items-start gap-4">
+                        <i class="fa-solid fa-shield-halved text-2xl text-red-400 mt-1"></i>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Cisco Cybersecurity & Data Science</h4>
+                            <p class="text-xs text-slate-400">Threat Monitoring & AI Foundations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="skills" class="py-20 px-6 bg-slate-900/50">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                <i class="fa-solid fa-code text-brand-accent"></i> Technical Stack & Tools
+            </h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Development -->
+                <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                    <h3 class="font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-layer-group text-brand-blue"></i> Software Development
+                    </h3>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li>• MERN Stack (MongoDB, Express, React, Node)</li>
+                        <li>• Android Studio (Java, Kotlin)</li>
+                        <li>• Python Programming</li>
+                        <li>• Web & Mobile UI Design</li>
+                    </ul>
+                </div>
+                <!-- Security -->
+                <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                    <h3 class="font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-user-shield text-emerald-400"></i> Cybersecurity & Audit
+                    </h3>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li>• Kali Linux Architecture</li>
+                        <li>• Ettercap & Nmap Network Analysis</li>
+                        <li>• OWASP ZAP Web Security Auditing</li>
+                        <li>• Computer Forensics & Lab Operations</li>
+                    </ul>
+                </div>
+                <!-- Design & Multimedia -->
+                <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                    <h3 class="font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-pen-nib text-purple-400"></i> Multimedia & Graphic Design
+                    </h3>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li>• Adobe Photoshop</li>
+                        <li>• Canva Pro & Brand Design</li>
+                        <li>• Visual Asset & Identity Creation</li>
+                        <li>• Institutional Material Production</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                <i class="fa-solid fa-briefcase text-brand-accent"></i> Teaching & Professional Leadership
+            </h2>
+            <div class="space-y-6">
+                <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                    <div class="flex justify-between items-start flex-wrap gap-2">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">School ICT Coordinator & SHS Teacher</h3>
+                            <p class="text-sm text-brand-accent">Tinajeros National High School, Department of Education</p>
+                        </div>
+                        <span class="text-xs text-slate-400 bg-slate-800 px-3 py-1 rounded-full border border-slate-700">Public Service (7 Years)</span>
+                    </div>
+                    <p class="text-sm text-slate-300 mt-4 leading-relaxed">
+                        Leads school-wide information technology operations, coordinates national testing infrastructures (such as CB-NAT), and teaches technical courses across Senior High School tracks.
+                    </p>
+                </div>
+                <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                    <div class="flex justify-between items-start flex-wrap gap-2">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">College Professor / Higher Education Faculty</h3>
+                            <p class="text-sm text-brand-accent">National University Manila / Navotas Polytechnic College</p>
+                        </div>
+                        <span class="text-xs text-slate-400 bg-slate-800 px-3 py-1 rounded-full border border-slate-700">Tertiary Education</span>
+                    </div>
+                    <p class="text-sm text-slate-300 mt-4 leading-relaxed">
+                        Handled advanced undergraduate subjects in Software Development, Advanced Cybersecurity, and information technology systems.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="py-12 px-6 border-t border-slate-800 bg-slate-950 text-center">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <h2 class="text-2xl font-bold text-white">Connect & Collaborate</h2>
+            <p class="text-sm text-slate-400">Open for professional inquiries, academic collaborations, and technical consultation.</p>
+            
+            <div class="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-brand-card border border-slate-800 text-slate-200 font-mono text-sm">
+                <i class="fa-solid fa-envelope text-brand-accent"></i>
+                <a href="mailto:dador.frederick7728@gmail.com" class="hover:text-brand-accent transition">dador.frederick7728@gmail.com</a>
+            </div>
+
+            <div class="flex justify-center gap-6 text-xl text-slate-300 pt-2">
+                <a href="#" class="hover:text-brand-accent transition"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="hover:text-brand-accent transition"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:dador.frederick7728@gmail.com" class="hover:text-brand-accent transition"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="text-xs text-slate-500 pt-6">© 2026 Frederick E. Dador. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
